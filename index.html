@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnimeKai Store - Inicio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div id="cart-modal" class="cart-modal">
+    <div class="cart-content">
+        <span class="close-cart">&times;</span>
+        <h3>Tu Carrito</h3>
+        <div id="cart-items"></div>
+        <div class="cart-total">
+            <strong>Total:</strong> $<span id="cart-total">0</span>
+        </div>
+        <button class="empty-cart-btn">Vaciar Carrito</button>
+    </div>
+</div>
+
+<header>
+    <div class="container">
+        <div class="logo"><h1>AnimeKai Store</h1></div>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="nav-link active">Inicio</a></li>
+                <li><a href="productos.html" class="nav-link">Productos</a></li>
+                <li><a href="series.html" class="nav-link">Series</a></li>
+                <li><a href="about.html" class="nav-link">Quiénes Somos</a></li>
+            </ul>
+        </nav>
+        <div class="cart-icon">
+            <span>🛒</span>
+            <span class="cart-count">0</span>
+        </div>
+    </div>
+</header>
+
+<main>
+    <section id="inicio">
+        <div class="hero">
+            <h2>Bienvenido a AnimeKai Store</h2>
+            <p>Encuentra los mejores productos de anime y manga</p>
+            <a href="productos.html" class="cta-button">Ver Productos</a>
+        </div>
+        <div class="featured-products">
+            <h2>Productos Destacados</h2>
+            <div class="products-grid">
+                <div class="product-card">
+                    <img src="imagenes/6i9s4cff.png" alt="Figura de colección">
+                    <h3>Figura Naruto</h3>
+                    <p class="price">$20000</p>
+                    <button class="add-to-cart" data-id="1">Añadir al carrito</button>
+                </div>
+                <div class="product-card">
+                    <img src="imagenes/81rEhhwbubL._SL1500_.jpg" alt="Volumen de manga">
+                    <h3>One Piece Vol. 100</h3>
+                    <p class="price">$40000</p>
+                    <button class="add-to-cart" data-id="3">Añadir al carrito</button>
+                </div>
+                <div class="product-card">
+                    <img src="imagenes/il_1080xN.5944656713_5rty.webp" alt="Poster anime">
+                    <h3>Poster Attack on Titan</h3>
+                    <p class="price">$25000</p>
+                    <button class="add-to-cart" data-id="4">Añadir al carrito</button>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>AnimeKai Store</h3>
+                <p>Tu tienda de confianza para productos de anime</p>
+            </div>
+            <div class="footer-section">
+                <h3>Enlaces Rápidos</h3>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="series.html">Series</a></li>
+                    <li><a href="about.html">Quiénes Somos</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contacto</h3>
+                <p>Email: info@AnimeKai.com</p>
+                <p>Teléfono: +56 9 1234 5678</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 AnimeKai Store. Todos los derechos reservados.</p>
+        </div>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

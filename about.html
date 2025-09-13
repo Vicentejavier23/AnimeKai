@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnimeKai Store - Quiénes Somos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div id="cart-modal" class="cart-modal">
+    <div class="cart-content">
+        <span class="close-cart">&times;</span>
+        <h3>Tu Carrito</h3>
+        <div id="cart-items"></div>
+        <div class="cart-total">
+            <strong>Total:</strong> $<span id="cart-total">0</span>
+        </div>
+        <button class="empty-cart-btn">Vaciar Carrito</button>
+    </div>
+</div>
+
+<header>
+    <div class="container">
+        <div class="logo"><h1>AnimeKai Store</h1></div>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="nav-link">Inicio</a></li>
+                <li><a href="productos.html" class="nav-link">Productos</a></li>
+                <li><a href="series.html" class="nav-link">Series</a></li>
+                <li><a href="about.html" class="nav-link active">Quiénes Somos</a></li>
+            </ul>
+        </nav>
+        <div class="cart-icon">
+            <span>🛒</span>
+            <span class="cart-count">0</span>
+        </div>
+    </div>
+</header>
+
+<main>
+    <section id="about">
+        <h2>Quiénes Somos</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>AnimeKai Store es una tienda especializada en productos de anime y manga, ofreciendo figuras, posters, ropa y accesorios de tus series favoritas.</p>
+                <p>Nuestro objetivo es entregar productos de calidad, con envíos rápidos y atención personalizada.</p>
+            </div>
+            <div class="contact-form">
+                <h3>Contáctanos</h3>
+                <div class="form-group">
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" placeholder="Tu nombre">
+                </div>
+                <div class="form-group">
+                    <label for="email">Correo:</label>
+                    <input type="email" id="email" placeholder="Tu correo">
+                </div>
+                <div class="form-group">
+                    <label for="message">Mensaje:</label>
+                    <textarea id="message" rows="4" placeholder="Escribe tu mensaje"></textarea>
+                </div>
+                <button id="send-btn">Enviar</button>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>AnimeKai Store</h3>
+                <p>Tu tienda de confianza para productos de anime</p>
+            </div>
+            <div class="footer-section">
+                <h3>Enlaces Rápidos</h3>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="series.html">Series</a></li>
+                    <li><a href="about.html">Quiénes Somos</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contacto</h3>
+                <p>Email: info@AnimeKai.com</p>
+                <p>Teléfono: +56 9 1234 5678</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 AnimeKai Store. Todos los derechos reservados.</p>
+        </div>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
